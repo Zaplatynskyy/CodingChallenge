@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  padding: 80px;
+}
+
+body div:first-child{ /* proprietà div contenitore */
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 60px;
+}
+/* da qui css intestazione header */
+header{
+  text-align: center;
+}
+
+header > img{
+  width: 200px;
+}
+
+header > h1{
+  color: rgb(0, 220, 0);
+}
+/* da qui css interazioni nav */
+nav{
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(0, 200, 0);
+  margin-top: 20px;
+}
+/* da qui css lista monopattini main */
+section{
+  color: white;
+  margin-top: 20px;
+}
+
+section > h3{
+  display: inline-block;
+}
+
+section > div{
+  font-size: 15px;
+}
+
+.street:before{
+  content: "\2192"; /*freccetta all'inizio dell'indirizzo*/
+}
+
+.charge{
+  border-radius: 5px;
+  height: 20px;
+  margin: 0;
+}
+
+.charge.one{
+  background-color: orange;
+  width: 40%;
+}
+
+.charge.two{
+  background-color: green;
+  width: 60%
+}
+
+.charge.three{
+  background-color: red;
+  width: 20%
+}
